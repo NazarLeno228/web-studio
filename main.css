@@ -81,11 +81,12 @@ background-color: #212121;
 }
 .hero.button{
    
-    text-align: center;
+   
     font-weight: 700;
     font-size: 16px;
    line-height: 30px;
    letter-spacing: 0.06em;
+   text-align: center;
    color: var(--hero-backround-color);
    background-color: var(--accent-color);
 }

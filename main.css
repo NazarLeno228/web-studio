@@ -71,8 +71,7 @@ h1{
    letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
-color: var(--hero-backround-color);
-background-color: #212121;
+    color: var(--background-color);
 }
 .hero.button{
    
@@ -84,4 +83,32 @@ background-color: #212121;
    text-align: center;
    color: var(--hero-backround-color);
    background-color: var(--accent-color);
+}
+
+
+.contacts{
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: var(--secondary-text-color);
+    
+}
+.contacts:hover,
+.contacts:focus{
+    color: var(--accent-color);
+}
+.section{
+    background-color: var(--hero-background-color);
+}
+.hero-button{
+    color: var(--background-color);
+}
+.footer{
+    background-color: #212121;
+}
+.address{
+    color: var(--background-color);
 }

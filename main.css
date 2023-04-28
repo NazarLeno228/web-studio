@@ -102,9 +102,28 @@ h1{
 .hero-button{
     color: var(--background-color);
 }
+
+
+/* футер */
 .footer{
-    background-color: #212121;
+    background-color: var(--hero-background-color);
+}
+
+.footer .logo>span{
+    color: var(--background-color)
 }
 .address{
-    color: var(--background-color);
+  
+
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: var(--background-color);
+}
+ .footer  .contacts-link{
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: rgba(255, 255, 255, 0.6);
+
 }

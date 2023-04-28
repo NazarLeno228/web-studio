@@ -1,0 +1,37 @@
+:root{
+    --primary-text-color:#212121; --secondary-text-color: #757575; --logo-color: #000; --accent-color: #2196F3; --background-color: #fff; --hero-background-color:#2F303A; 
+}
+.logo>span{
+    color: var(--logo-color);
+}
+
+.footer  .contacts-link{
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: rgba(255, 255, 255, 0.6);
+
+}
+.address{
+  
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--background-color);
+    }
+    .footer{
+        background-color: var(--hero-background-color);
+    }
+    
+    .footer .logo>span{
+        color: var(--background-color)
+    }
+    .job-title{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+    }
